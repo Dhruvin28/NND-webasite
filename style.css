@@ -3243,14 +3243,12 @@ ul.list-style-one li a:hover {
 
 /* hero-area style-two*/
 .hero-area.style-two {
-  background: url(assets/images/home-two/hero2-bg.jpg);
+  background: url(assets/images/inner/breadcumb-bg1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 70px;
-  margin: 0 50px;
-  border-radius: 40px 40px 0 0;
-  height: 850px;
+  margin: 0 0px;
+  height: 600px;
 }
 
 .hero-area.style-two .hero-contant h5 {
@@ -5181,7 +5179,7 @@ ul.list-style-one li a:hover {
    <!--solutek Breadcumb Area Css-->
 =========================================================---*/
 .breadcumb-area {
-  background: url(assets/images/inner/breadcumb-bg.png);
+  background: url(assets/images/inner/breadcumb-bg1.png);
   padding: 230px 0 170px;
   background-repeat: no-repeat;
   background-size: contain;
