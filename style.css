@@ -7204,6 +7204,47 @@ p.blog-details-desc.three {
   -moz-animation: Ripple 1.6s ease-in-out infinite;
 }
 
+
+ /* The main container that holds the three divs */
+        .nnd-container {
+            display: flex; /* This is the key to making the inner divs go side-by-side */
+            font-family: sans-serif;
+            border: 2px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            background: url(assets/images/inner/breadcumb-bg1.png);
+            margin: 0 80px;
+            color: #FFF;
+        }
+
+        /* Styling for each of the three inner divs */
+        .inner-div {
+            flex: 1; /* This makes each div take up an equal amount of space */
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+
+        /* Special style for the BIG 'N' */
+        .big-n {
+            font-size: 4rem; /* Makes the letter twice as big as the surrounding text */
+            font-weight: bold;
+            color: #FF3c00;
+        }
+        .small-n {
+          font-size: 2rem;
+          color: #FFF;
+        }
+        .nnd-description {
+          margin-top: 20px;
+          opacity: 0.702;
+          line-height: 30px;
+        color: #ffffff;
+        font-weight: 500;
+        font-family: "Fira Sans";
+        }
+
+
 /*
 <!-- ============================================================== -->
 <!-- solutek Scrollup Section -->
