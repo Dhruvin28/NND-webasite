@@ -100,7 +100,7 @@ nav.solutek_menu {
   -webkit-transition: 0.5s;
   text-decoration: none;
   font-size: 16px;
-  color: #ffffff;
+  color: #FFF;
   font-weight: 400;
   font-family: "Fira Sans";
 }
@@ -2746,6 +2746,7 @@ p.footer-widget-text {
     display: flex;
     align-items: flex-start; /* Aligns icon to the top of the text */
     gap: 0px; /* Creates space between icon and text */
+    margin-top: 37px;
 }
 
 .footer-address i {
