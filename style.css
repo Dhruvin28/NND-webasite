@@ -2680,7 +2680,7 @@ ul.testi-rating li {
 }
 
 .row.footer {
-  padding: 100px 0 0;
+  padding: 25px 0 0;
 }
 
 p.footer-widget-text {
@@ -7208,7 +7208,13 @@ p.blog-details-desc.three {
   -webkit-animation: Ripple 1.6s ease-in-out infinite;
   -moz-animation: Ripple 1.6s ease-in-out infinite;
 }
-
+.map-address {
+  border-radius: 10px;
+}
+.telephone-number {
+  font-size: 1.4rem;
+  color: #FF4500;
+}
 
  /* The main container that holds the three divs */
         .nnd-container {
