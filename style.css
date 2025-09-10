@@ -2693,7 +2693,12 @@ p.footer-widget-text {
   margin: 0;
   padding: 38px 0 68px;
 }
-
+.footer-widget {
+      margin-bottom: 25px;
+}
+.footer-list {
+  margin-bottom: 10px;
+}
 .footer-widget-social a i {
   display: inline-block;
   color: #9e9e9e;
@@ -2708,7 +2713,7 @@ p.footer-widget-text {
   color: #ffffff;
   font-weight: 600;
   font-family: "Poppins";
-  margin-bottom: 31px;
+  /* margin-bottom: 31px; */
 }
 
 .footer-widget.left ul li {
@@ -2746,8 +2751,7 @@ p.footer-widget-text {
     display: flex;
     align-items: flex-start; /* Aligns icon to the top of the text */
     gap: 0px; /* Creates space between icon and text */
-    margin-top: 37px;
-}
+  }
 
 .footer-address i {
     font-size: 1.4rem; /* Makes the icon a bit larger */
@@ -2759,6 +2763,7 @@ p.footer-widget-text {
     margin: 0; /* Removes default paragraph margin for better alignment */
     line-height: 1.6; /* Improves readability of the address */
 }
+
 p.newsletter-text {
   opacity: 0.6;
   font-size: 16px;
@@ -3243,7 +3248,7 @@ ul.list-style-one li a:hover {
 
 /* hero-area style-two*/
 .hero-area.style-two {
-  background: url(assets/images/inner/breadcumb-bg1.png);
+  background: url(assets/images/inner/breadcumb-bg1copy.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -5179,7 +5184,7 @@ ul.list-style-one li a:hover {
    <!--solutek Breadcumb Area Css-->
 =========================================================---*/
 .breadcumb-area {
-  background: url(assets/images/inner/breadcumb-bg1.png);
+  background: url(assets/images/inner/breadcumb-bg1copy.png);
   padding: 230px 0 170px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -7212,7 +7217,7 @@ p.blog-details-desc.three {
             border: 2px solid #ddd;
             padding: 20px;
             border-radius: 8px;
-            background: url(assets/images/inner/breadcumb-bg1.png);
+            background: url(assets/images/inner/breadcumb-bg1copy.png);
             margin: 0 80px;
             color: #FFF;
         }
@@ -7243,7 +7248,13 @@ p.blog-details-desc.three {
         font-weight: 500;
         font-family: "Fira Sans";
         }
-
+ @media (max-width: 768px) {
+            .nnd-container {
+                /* Change the flex direction from horizontal (row) to vertical (column) */
+                flex-direction: column;
+                margin: 0 10px;
+            }
+        }
 
 /*
 <!-- ============================================================== -->
