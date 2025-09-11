@@ -1,124 +1,432 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page not found</title>
-    <style>
-      :root {
-        --colorRgbFacetsTeal600: 2 128 125;
-        --colorTealAction: var(--colorRgbFacetsTeal600);
-        --colorRgbFacetsNeutralLight200: 233 235 237;
-        --colorHr: var(--colorRgbFacetsNeutralLight200);
-        --colorRgbFacetsNeutralLight700: 53 58 62;
-        --colorGrayDarkest: var(--colorRgbFacetsNeutralLight700);
-        --colorGrayLighter: var(--colorRgbFacetsNeutralLight200);
-        --colorText: var(--colorGrayDarkest);
-        --effectShadowLightShallow: 0 1px 10px 0 rgb(53 58 62 / 6%),
-          0 2px 4px 0 rgb(53 58 62 / 8%);
-        --colorRgbFacetsNeutralDark900: 6 11 16;
-      }
-      body {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
-          "Segoe UI Emoji", "Segoe UI Symbol";
-        background: white;
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-        line-height: 1.5;
-        color: rgb(var(--colorText));
-      }
+<!DOCTYPE HTML>
+<html lang="en-US">
+	
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>NND Techlabs</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.ico">
+		<!-- bootstrap CSS -->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
+		<!-- carousel CSS -->
+		<link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all">	
+		<!-- animate CSS -->
+		<link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all">	
+		<!-- animated-text CSS -->
+		<link rel="stylesheet" href="assets/css/animated-text.css" type="text/css" media="all">	
+		<!-- font-awesome CSS -->
+		<link rel="stylesheet" href="assets/css/all.min.css" type="text/css" media="all">	
+		<!-- font-flaticon CSS -->
+		<link rel="stylesheet" href="assets/css/flaticon.css" type="text/css" media="all">	
+		<!-- theme-default CSS -->
+		<link rel="stylesheet" href="assets/css/theme-default.css" type="text/css" media="all">	
+		<!-- meanmenu CSS -->
+		<link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all">	
+		<!-- Main Style CSS -->
+		<link rel="stylesheet"  href="style.css" type="text/css" media="all">
+		<!-- transitions CSS -->
+		<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all">
+		<link rel="stylesheet" href="assets/css/splide.min.css" type="text/css" media="all">
+		<!-- venobox CSS -->
+		<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all">
+		<!-- responsive CSS -->
+		<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
+		<!-- modernizr js -->	
+		<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>	
+		<!-- bootstrap icons -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+		
+	</head>
+<body>
+	<!-- loder -->
+	<div class="loader-wrapper">
+	  <div class="loader"></div>
+	  <div class="loder-section left-section"></div>
+	  <div class="loder-section right-section"></div>
+	</div>
 
-      @media (prefers-color-scheme: dark) {
-        body {
-          background: rgb(var(--colorRgbFacetsNeutralDark900));
-        }
-      }
 
-      h1 {
-        margin: 0;
-        font-size: 1.375rem;
-        line-height: 1;
-      }
 
-      h1 + p {
-        margin-top: 8px;
-      }
 
-      .main {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        width: 100vw;
-      }
+<!--==================================================-->
+<!-- Start solutek Main Menu Area -->
+<!--==================================================-->
+<div class="solutek_nav_manu">
+	<div class="container-fluid">
+		<div class="row d-flex align-items-center">
+			<div class="col-lg-2">
+				<div class="logo">
+					<a class='logo_img' href='index.html' title='NND Techlabs'>
+						<img src="assets/images/logo.png" alt="logo" style="width: 200px; height: 100px">
+					</a>
+					<a class='main_sticky' href='index.html' title='NND Techlabs'>
+						<img src="assets/images/footer-logo.png" alt="astute" style="width: 200px; height: 100px">
+					</a>
+				</div>
+			</div>
+			<div class="col-lg-8">
+				<nav class="solutek_menu">
+					<ul class="nav_scroll">
+						<li><a href='index.html'>Home</a></li>
+						<li><a href="about-us.html">About Us</a> </li>
+						<li><a href="#">Service <i class="bi bi-chevron-down"></i></a>
+							<ul class="sub-menu">
+								<li><a href='service.html'>Service</a></li>
+								<li><a href='service-details.html'>Service Details</a></li>
+							</ul>
+						</li>
+						<li><a href="blog.html">Blog </a></li>
+						<li><a href='contact.html'>Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-lg-3">
+				<div class="header-menu-btn">
+					<!-- <div class="sidebar-button">
+						<a class="nav-btn navSidebar-button" href="#"><i class="fas fa-bars"></i></a> 
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-      .card {
-        position: relative;
-        width: 75%;
-        max-width: 364px;
-        padding: 24px;
-        background: white;
-        border-radius: 8px;
-        box-shadow: var(--effectShadowLightShallow);
-        border: 1px solid rgb(var(--colorGrayLighter));
-      }
 
-      a {
-        margin: 0;
-        font-weight: 600;
-        color: rgb(var(--colorTealAction));
-        text-decoration-skip-ink: all;
-        text-decoration-thickness: 1px;
-        text-underline-offset: 2px;
-        text-decoration-color: rgb(var(--colorTealAction) / 0.5);
-        transition: text-decoration-color 0.15s ease-in-out;
-      }
+<!-- NND Mobile Menu Area -->
+<div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-none ">
+	<div class="mobile-menu">
+		<nav class="solutek_menu">
+			<ul class="nav_scroll">
+				<li><a href="index.html">Home</a> </li>
+				<li><a href="about-us.html">About Us</a> </li>
+				<li><a href="#">Service <i class="bi bi-chevron-down"></i></a>
+					<ul class="sub-menu">
+						<li><a href='service.html'>Service</a></li>
+						<li><a href='service-details.html'>Service Details</a></li>
+					</ul>
+				</li>
+				<li><a href="blog-grid.html">Blog</a> </li>
+				<li><a href='contact.html'>Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+<!--==================================================-->
+<!-- End solutek Main Menu Area -->
+<!--==================================================-->
 
-      a:hover,
-      a:focus-visible {
-        text-decoration-color: rgb(var(--colorTealAction));
-      }
 
-      p:last-of-type {
-        margin-bottom: 0;
-      }
+<!--==================================================-->
+<!-- Start Curser Section Here -->
+<!--==================================================-->
+<div class="curser"></div>
+<div class="curser2"></div>
+<!--==================================================-->
+<!-- Ends Curser Section Here -->
+<!--==================================================-->
 
-      hr {
-        border: 0;
-        height: 1px;
-        background: rgb(var(--colorHr));
-        margin-top: 16px;
-        margin-bottom: 16px;
-      }
 
-      .your-site {
-        font-size: 0.875rem;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="main">
-      <div class="card">
-        <h1>Page not found</h1>
-        <p>
-          Looks like you’ve followed a broken link or entered a URL that doesn’t
-          exist on this site.
-        </p>
-        <hr />
-        <p class="your-site">
-          If this is your site, and you weren’t expecting a 404 for this path,
-          please visit Netlify’s
-          <a
-            href="https://answers.netlify.com/t/support-guide-i-ve-deployed-my-site-but-i-still-see-page-not-found/125?utm_source=404page&utm_campaign=community_tracking"
-            >“page not found” support guide</a
-          >
-          for troubleshooting tips.
-        </p>
-      </div>
+
+
+
+<!--==================================================-->
+<!-- Start solutek breadcumb Area -->
+<!--==================================================-->
+<div class="breadcumb-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="breadcumb-content">
+					<h4>Blog Grid</h4>
+					<ul class="breadcumb-list">
+						<li><a href='index.html'>Home</a></li>
+						<li class="list-arrow">&lt;</li>
+						<li>Blog Grid</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--==================================================-->
+<!-- end solutek breadcumb Area -->
+<!--==================================================-->
+
+
+
+
+
+
+
+<!--==================================================-->
+<!-- Start solutek blog Area style-grid-->
+<!--==================================================-->
+
+
+<div class="blog-area" style="padding: 100px 0; background: #f8f9fa;">
+    <div class="container">
+        <div class="row">
+            <!-- Blog Posts Column -->
+            <div class="col-lg-12">
+
+                <!-- Blog Post 1: Business Cards -->
+                <div class="blog-singele-box-tow">
+                    <div class="blog-thumb-tow">
+                        <a href="blog-business.html"><img src="assets/images/home-two/business-blog.webp" alt="Business Cards" style="width: 300px; border-radius: 15px;"></a>
+                    </div>
+                    <div class="blog-content-tow" style="display: flex; flex-direction: column; justify-content: center;">
+                        <div class="blog-date-tow" style="width: fit-content;">
+                            <h4><i class="bi bi-calendar3"></i> June 14, 2020 <span><i class="bi bi-tags"></i> News</span></h4>
+                        </div>
+                        <h3 class="blog-title-two"><a href="blog-business.html">Why Business Cards Continue To Be Important Even In The Digital Age?</a></h3>
+                        <div class="blog-btn-tow">
+                            <a href="blog-business.html">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 2: ERP Systems -->
+                <div class="blog-singele-box-tow">
+                    <div class="blog-thumb-tow">
+                        <a href="blog-erp.html"><img src="assets/images/home-two/erp-blog.webp" alt="ERP Systems" style="width: 300px; border-radius: 15px;"></a>
+                    </div>
+                    <div class="blog-content-tow" style="display: flex; flex-direction: column; justify-content: center;">
+                        <div class="blog-date-tow" style="width: fit-content;">
+                            <h4><i class="bi bi-calendar3"></i> August 24, 2023 <span><i class="bi bi-tags"></i> ERP Services</span></h4>
+                        </div>
+                        <h3 class="blog-title-two"><a href="blog-erp.html">Maximizing Business Success With ERP Systems</a></h3>
+                        <div class="blog-btn-tow">
+                            <a href="blog-erp.html">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Add more blog posts here following the same structure -->
+
+            </div>
+
+          
+        </div>
     </div>
-  </body>
+</div>
+
+<!--==================================================-->
+<!-- end solutek blog Area style-grid-->
+<!--==================================================-->
+
+
+
+<div class="address-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12">
+				<div class="address-box">
+					<div class="address-icon">
+						<img src="assets/images/address1.png" alt="address1">
+					</div>
+					<div class="address-title">
+						<h3>Elevating Customer Experience.</h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12">
+				<div class="address-box2">
+					<!-- <div class="address-icon">
+						<img src="assets/images/address2.png" alt="address1">
+					</div> -->
+						<div class="solutek-btn">
+						<a href='contact.html'> info@nndtechlabs.com
+							<div class="solutek-hover-btn hover-bx"></div>
+							<div class="solutek-hover-btn hover-bx2"></div>
+							<div class="solutek-hover-btn hover-bx3"></div>
+							<div class="solutek-hover-btn hover-bx4"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer-area">
+	<div class="container">
+		<div class="row footer">
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="footer-widget">
+					<div class="footer-logo">
+						<a href='index.html'><img src="assets/images/footer-logo.png" alt="footer-logo" style="width: 200px;height: 100px;"></a>
+					</div>
+					<p class="footer-widget-text">Share your project idea and our team will help you to make your idea into realm product.</p>
+					<div class="footer-widget left">
+					<div class="widget-title">
+						<h2>Useful Links</h2>
+					</div>
+					<ul class="footer-list">
+						<li><a href='about-us.html'>About Company</a></li>
+						<li><a href='blog.html'>Latest Blog</a></li>
+						<li><a href='contact.html'>Contact Us</a></li>
+						<!-- <li><a href='testimonial.html'>Testimonials</a></li> -->
+					</ul>
+				</div>
+				</div>
+			</div>
+			
+			<!-- <div class="col-lg-3 col-md-6 col-sm-6">
+				<div class="footer-widget left">
+					<div class="widget-title">
+						<h2>Services.</h2>
+					</div>
+					<ul>
+						<li><a href='about-us.html'>About Company</a></li>
+						<li><a href='blog-grid.html'>Latest Blog</a></li>
+						<li><a href='contact.html'>Contact Us</a></li>
+						<li><a href='faq.html'>FAQ</a></li>
+					</ul>
+				</div>
+			</div> -->
+<!-- USA Office Column -->
+<div class="col-lg-4 col-md-6 col-sm-6">
+    <div class="footer-widget">
+        <div class="widget-title">
+            <h2>USA Office</h2>
+        </div>
+		<div>
+			<iframe class="map-address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2937.831763995501!2d-71.33085432440183!3d42.58009322117293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3a250cff346d1%3A0xeec256baab687e19!2s6%20Ready%20Way%2C%20Chelmsford%2C%20MA%2001824%2C%20USA!5e0!3m2!1sen!2sin!4v1757500478325!5m2!1sen!2sin" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+		</div>
+        <div class="footer-address">
+            <!-- Icon -->
+            <i class="bi bi-geo-alt-fill"></i>
+            <!-- Address Text -->
+            <p>
+                6 Ready Way, Chelmsford<br>
+                MA 01824, Greater Boston Area<br>
+                United States
+            </p>
+        </div>
+		<div>
+			<p>
+				<i class="bi bi-telephone telephone-number"></i> <span>+1 (480) 619-1141</span>
+			</p>
+		</div>
+    </div>
+</div>
+
+<!-- SECOND Office Column (e.g., Canada) -->
+<div class="col-lg-4 col-md-6 col-sm-6">
+    <div class="footer-widget">
+        <div class="widget-title">
+            <h2>India Office</h2>
+        </div>
+		<div>
+			<iframe class="map-address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.8220049514175!2d72.52691212451741!3d23.030306785176432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85000bc98401%3A0x8d71305db584c2db!2sThe%20first!5e0!3m2!1sen!2sin!4v1757500805435!5m2!1sen!2sin" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+        <div class="footer-address">
+            <!-- Icon -->
+            <i class="bi bi-geo-alt-fill"></i>
+            <!-- Address Text -->
+            <p>
+                C-806, The First <br /> Nyay Marg, Vastrapur,<br /> Ahmedabad, Gujarat 380015
+            </p>
+        </div>
+		<div>
+			<p>
+				<i class="bi bi-telephone telephone-number"></i> <span>+917935287639</span>
+			</p>
+		</div>
+    </div>
+</div>
+
+<!-- Newsletter Column (Now Separate) -->
+<!-- <div class="col-lg-3 col-md-6 col-sm-6">
+    <div class="footer-widget">
+        <div class="widget-title">
+            <h2>Subscribe</h2>
+        </div>
+        <p class="newsletter-text">Get the latest updates and news directly in your inbox.</p>
+        <div class="Subscribe-form2">
+            <form>
+                <div class="form-field2">
+                    <input type="email" name="EMAIL" placeholder="Enter Your E-mail" required="">
+                    <button class="subscribe-button" type="submit"><i class="bi bi-send"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div> -->
+		</div>
+		<div class="row copyright">
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<div class="-copyright-text">
+					<p>© 2025 NND Techlabs. All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!--==================================================-->
+<!-- Start scrollup section Area -->
+<!--==================================================-->
+<!-- scrollup section -->
+<div class="scroll-area">
+	<div class="top-wrap">
+		<div class="go-top-btn-wraper">
+			<div class="go-top go-top-button">
+				<i class="fas fa-arrow-up"></i>
+				<i class="fas fa-arrow-up"></i>
+			</div>
+		</div>
+	</div>
+</div>
+<!--==================================================-->
+<!-- Start scrollup section Area -->
+<!--==================================================-->
+
+	
+	
+	<!-- jquery js -->	
+	<script src="assets/js/vendor/jquery-3.6.2.min.js"></script>
+	<!-- bootstrap js -->	
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- carousel js -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- counterup js -->
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<!-- waypoints js -->
+	<script src="assets/js/waypoints.min.js"></script>
+	<!-- wow js -->
+	<script src="assets/js/wow.js"></script>
+	<!-- imagesloaded js -->
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<!-- venobox js -->
+	<script src="venobox/venobox.js"></script>
+	<!--  animated-text js -->	
+	<script src="assets/js/animated-text.js"></script>
+	<!-- venobox min js -->
+	<script src="venobox/venobox.min.js"></script>
+	<!-- isotope js -->
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<!-- jquery meanmenu js -->	
+	<script src="assets/js/jquery.meanmenu.js"></script>
+	<!-- jquery scrollup js -->	
+	<script src="assets/js/jquery.scrollUp.js"></script>
+	<script src="assets/js/jquery.barfiller.js"></script>
+	<script src="assets/js/typed.js"></script>
+	<!-- jquery js -->	
+	<script src="../unpkg.com/aos%403.0.0-beta.6/dist/aos.js"></script>
+	<script src="assets/js/vanilla-tilt.min.js"></script>
+	<!-- partial -->
+	 
+	<script src="assets/js/splide.min.js"></script>
+	<!-- theme js -->	
+	<script src="assets/js/theme.js"></script>
+</body>
+
 </html>
