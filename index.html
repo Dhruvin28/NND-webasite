@@ -39,17 +39,37 @@
 		<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>	
 		<!-- bootstrap icons -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-		 <script>
-			console.log('Hello World!');
-			
-    fetch("https://ipapi.co/json/")
-      .then(response => response.json())
-      .then(data => {
-		console.log('IP information:', data);
-      }, error => {
-		console.error('Error fetching IP information:', error);
-	  });
-  </script>
+		<script>
+			const statusMessage = document.getElementById('statusMessage');
+			fetch('log_ip_curl.php')
+				.then(response => {
+					// Check if the HTTP response is successful (e.g., 200 OK)
+					if (!response.ok) {
+						throw new Error('Network response was not ok: ' + response.statusText);
+					}
+					// Parse the JSON data from the response
+					return response.json();
+				})
+				.then(data => {
+					const statusMessage = document.getElementById('statusMessage');
+					// The 'data' variable now holds the JSON object from our PHP script
+					console.log('Response from PHP:', data);
+
+					// Update the status message based on the response
+					if (data.status === 'success') {
+						statusMessage.className = 'success';
+					} else {
+						statusMessage.className = 'error';
+					}
+				})
+				.catch(error => {
+					// This will catch network errors or errors from the 'throw' above
+					statusMessage.className = 'error';
+				})
+				.finally(() => {
+					// This block runs whether the fetch succeeded or failed
+				});
+		</script>
 	</head>
 <body>
 	<!-- loder -->
@@ -59,7 +79,7 @@
 	  <div class="loder-section right-section"></div>
 	</div>
 
-
+<div id="statusMessage" class="error"></div>
 
 
 <!--==================================================-->
