@@ -100,7 +100,7 @@ nav.solutek_menu {
   -webkit-transition: 0.5s;
   text-decoration: none;
   font-size: 16px;
-  color: #FFF;
+  color: #232323 !important;
   font-weight: 400;
   font-family: "Fira Sans";
 }
@@ -1733,7 +1733,7 @@ h3.project-title a:hover {
          * In our case: (250px + 40px) * 5 = 1450px
          * We move it by a negative amount to slide it left.
         */
-        transform: translateX(calc(-290px * 9));
+        transform: translateX(calc(-290px * 10));
     }
 }
 
@@ -3245,12 +3245,12 @@ ul.list-style-one li a:hover {
 
 /* hero-area style-two*/
 .hero-area.style-two {
-  background: url(assets/images/inner/breadcumb-bg1copy.png);
+  background: url(assets/images/inner/breadcumb-bg1copy1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 0px;
-  height: 600px;
+  height: 500px;
 }
 
 .hero-area.style-two .hero-contant h5 {
@@ -5181,12 +5181,12 @@ ul.list-style-one li a:hover {
    <!--solutek Breadcumb Area Css-->
 =========================================================---*/
 .breadcumb-area {
-  background: url(assets/images/inner/breadcumb-bg1copy.png);
+  background: url(assets/images/inner/breadcumb-bg1copy1.png);
   padding: 230px 0 170px;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  margin: -77px 0px 0 -16px;
+  /* margin: -77px 0px 0 -16px; */
 }
 
 .breadcumb-area.about {
@@ -7212,7 +7212,148 @@ p.blog-details-desc.three {
   font-size: 1.4rem;
   color: #FF4500;
 }
+/*
+=====================================================
+  <!-- Custom "Why Us?" Section Styles -->
+=====================================================
+*/
+.why-us-section {
+    background-color: #ffffff; /* Or #f8f9fa for a light grey */
+}
 
+.why-us-section .section-title {
+    margin-bottom: 60px;
+}
+
+.features-grid {
+    justify-content: center;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 20px;
+    height: 100%; /* Ensures all items are the same height if background is added */
+    margin-bottom: 30px; /* Adds space on mobile */
+}
+
+.feature-icon1 {
+    width: 64px;
+    height: 64px;
+}
+
+.feature-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #212529; /* Dark text color */
+    margin-bottom: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.feature-description {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #6c757d; /* Muted grey for description */
+    font-family: "Fira Sans", sans-serif;
+}
+
+/*
+=====================================================
+  <!-- Custom "Our Values" Section Styles -->
+=====================================================
+*/
+.values-section {
+    background-color: #ffffff;
+}
+
+.values-section .section-title {
+    margin-bottom: 80px;
+}
+
+/* Style for the small orange subtitle "Our Value" */
+.values-subtitle {
+    color: #ff3c00; /* Your theme's primary orange */
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Container for each value item (icon + text) */
+.value-item {
+    display: flex;
+    align-items: flex-start; /* Aligns icon to the top of the text block */
+    gap: 20px;
+    margin-bottom: 50px; /* Space between rows */
+}
+
+/* Styling for the icon */
+.value-icon i {
+    font-size: 40px; /* Adjust icon size as needed */
+    color: #495057; /* A neutral dark grey */
+    flex-shrink: 0; /* Prevents icon from shrinking */
+}
+
+/* Container for the text content */
+.value-content {
+    flex-grow: 1;
+}
+
+/* Title for each value (e.g., "Sustainability") */
+.value-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #212529; /* Dark text for titles */
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Description for each value */
+.value-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #6c757d; /* Lighter grey for descriptions */
+    margin-bottom: 0;
+    font-family: "Fira Sans", sans-serif;
+}
+
+
+/*
+=====================================================
+  <!-- Responsive Styles for "Our Values" Section -->
+=====================================================
+*/
+
+/* For tablets and smaller devices */
+@media (max-width: 991px) {
+    .values-section .section-title {
+        margin-bottom: 60px;
+    }
+
+    .value-item {
+        margin-bottom: 40px;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 767px) {
+    .values-section {
+        padding: 60px 0;
+    }
+
+    /* Stack items in a single column on mobile */
+    .row > [class*="col-"] {
+        width: 100%;
+    }
+    
+    .value-item {
+        /* Optional: Center the content on mobile for a different look */
+        /* flex-direction: column;
+        align-items: center;
+        text-align: center; */
+    }
+}
  /* The main container that holds the three divs */
         .nnd-container {
             display: flex; /* This is the key to making the inner divs go side-by-side */
@@ -7220,7 +7361,7 @@ p.blog-details-desc.three {
             border: 2px solid #ddd;
             padding: 20px;
             border-radius: 8px;
-            background: url(assets/images/inner/breadcumb-bg1copy.png);
+            background: url(assets/images/inner/breadcumb-bg1copy1.png);
             margin: 0 80px;
             color: #FFF;
         }
@@ -8086,7 +8227,43 @@ p.blog-details-desc.three {
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
 }
+/*
+=====================================================
+  <!-- Responsive Styles for "Why Us?" Section -->
+=====================================================
+*/
 
+/* For tablets - Stacks to 2x2 grid */
+@media (max-width: 991px) {
+    .feature-item {
+        margin-bottom: 40px;
+    }
+}
+
+/* For mobile phones - Stacks to 1 column */
+@media (max-width: 767px) {
+    .why-us-section {
+        padding: 60px 0;
+    }
+
+    .why-us-section .section-title {
+        margin-bottom: 40px;
+    }
+
+    .why-us-section .section-main-title {
+        font-size: 36px !important; /* Adjust title size for mobile */
+    }
+
+    .feature-item {
+        margin-bottom: 40px;
+        padding: 0 10px;
+    }
+
+    /* Remove bottom margin from the last item on mobile */
+    .features-grid .col-md-6:last-child .feature-item {
+        margin-bottom: 0;
+    }
+}
 @keyframes rotateme {
   from {
     -webkit-transform: rotate(0deg);
