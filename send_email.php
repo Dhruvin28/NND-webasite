@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Recipient
-    $recipient = "mashruwaladhruvin@gmail.com";
+    $recipient = "nndtechlabsindia@gmail.com";
 
     // Build email content
     $email_subject = "New Contact Form Submission: $subject";
