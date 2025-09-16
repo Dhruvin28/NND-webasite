@@ -1,50 +1,50 @@
 /*===============================================
-Template Name: Solutek - Technology & IT Solution HTML5 Template
+Template Name: nnd - Technology & IT Solution HTML5 Template
 Author:  https://themeforest.net/user/themeservices
 Description: Description
 Version: 1.0.0
-Text Domain: Solutek
+Text Domain: nnd
 Tags:     agency, business, consulting, corporate, cyber security, finance, it agency, it services, it solutions, multipurpose, software company, startup, technology, technology company.
 ================================================*/
 
 /*TABLE OF CONTENTS*/
 /*=====================
-01. solutek Nav Menu Area Css
-02. solutek hero Area Css
-03. solutek feature Area Css
-04. solutek section-title Area Css
-05. solutek contact Area Css
-06. solutek blog Area Css 
-07. solutek about Area Css
-08. solutek service Area Css
-09. solutek project Area Css
-10. solutek brand Area Css
-11. solutek pricing Area Css
-12. solutek faq-area Css
-13. solutek testimonial-area Css
-14. solutek address-area Css
-15. solutek footer-area Css
-17. solutek copyright css
-18. solutek Home two Css
-19. solutek home page 03 css
-20. solutek marquee section css
-21. solutek team Area css
-22. solutek Breadcumb Area Css
-23. solutek about us Area css
-24. solutek Team Details Area css
-25. solutek skill bar css
-26. solutek services details area css
-27. solutek case study area css
-28. solutek project details area css
-29. solutek blog details css
+01. nnd Nav Menu Area Css
+02. nnd hero Area Css
+03. nnd feature Area Css
+04. nnd section-title Area Css
+05. nnd contact Area Css
+06. nnd blog Area Css 
+07. nnd about Area Css
+08. nnd service Area Css
+09. nnd project Area Css
+10. nnd brand Area Css
+11. nnd pricing Area Css
+12. nnd faq-area Css
+13. nnd testimonial-area Css
+14. nnd address-area Css
+15. nnd footer-area Css
+17. nnd copyright css
+18. nnd Home two Css
+19. nnd home page 03 css
+20. nnd marquee section css
+21. nnd team Area css
+22. nnd Breadcumb Area Css
+23. nnd about us Area css
+24. nnd Team Details Area css
+25. nnd skill bar css
+26. nnd services details area css
+27. nnd case study area css
+28. nnd project details area css
+29. nnd blog details css
 
 =======================*/
 
 /*=====================================
-<-- 01. solutek Nav Menu Area Css -->
+<-- 01. nnd Nav Menu Area Css -->
 =======================================*/
 
-.solutek_nav_manu {
+.nnd_nav_manu {
   padding: 35px 39px 0;
 }
 
@@ -70,31 +70,31 @@ Tags:     agency, business, consulting, corporate, cyber security, finance, it a
   margin-top: 0;
 }
 
-.sticky.solutek_nav_manu:before {
+.sticky.nnd_nav_manu:before {
   display: none;
 }
 
-/* solutek Menu Css*/
+/* nnd Menu Css*/
 
-nav.solutek_menu {
+nav.nnd_menu {
   align-items: center !important;
   justify-content: center;
   display: flex;
 }
 
-.solutek_menu ul {
+.nnd_menu ul {
   list-style: none;
   display: inline-block;
   padding: 0;
 }
 
-.solutek_menu > ul > li {
+.nnd_menu > ul > li {
   display: inline-block;
   position: relative;
   z-index: 2;
 }
 
-.solutek_menu > ul > li > a {
+.nnd_menu > ul > li > a {
   display: block;
   margin: 23px 21px 23px;
   -webkit-transition: 0.5s;
@@ -105,20 +105,20 @@ nav.solutek_menu {
   font-family: "Fira Sans";
 }
 
-nav.solutek_menu ul li a i {
+nav.nnd_menu ul li a i {
   display: inline-block;
   font-size: 12px;
   padding-left: 5px;
 }
 
-nav.solutek_menu span {
+nav.nnd_menu span {
   font-size: 13px;
   padding-left: 6px;
   font-family: FontAwesome;
   opacity: 0.5;
 }
 
-.sticky .solutek_menu > ul > li > a:hover {
+.sticky .nnd_menu > ul > li > a:hover {
   color: #fff;
 }
 
@@ -128,12 +128,12 @@ nav.solutek_menu span {
   z-index: 1;
 }
 
-.solutek_menu > ul > li > a:hover {
+.nnd_menu > ul > li > a:hover {
   color: #ff3c00;
 }
 
 /*** Sub Menu Style ***/
-.solutek_menu ul .sub-menu {
+.nnd_menu ul .sub-menu {
   position: absolute;
   left: 0;
   top: 150%;
@@ -150,7 +150,7 @@ nav.solutek_menu span {
   border-top: 3px solid #F56421;
 }
 
-.solutek_menu ul li:hover > .sub-menu {
+.nnd_menu ul li:hover > .sub-menu {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   visibility: visible;
   top: 100%;
@@ -158,11 +158,11 @@ nav.solutek_menu span {
   z-index: 9999;
 }
 
-.solutek_menu ul .sub-menu li {
+.nnd_menu ul .sub-menu li {
   position: relative;
 }
 
-.solutek_menu ul .sub-menu li a {
+.nnd_menu ul .sub-menu li a {
   display: block;
   padding: 12px 20px;
   margin: 0;
@@ -178,17 +178,17 @@ nav.solutek_menu span {
   transition: 0.5s;
 }
 
-.solutek_menu ul .sub-menu li:hover > a,
-.solutek_menu ul .sub-menu .sub-menu li:hover > a,
-.solutek_menu ul .sub-menu .sub-menu .sub-menu li:hover > a,
-.solutek_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover > a {
+.nnd_menu ul .sub-menu li:hover > a,
+.nnd_menu ul .sub-menu .sub-menu li:hover > a,
+.nnd_menu ul .sub-menu .sub-menu .sub-menu li:hover > a,
+.nnd_menu ul .sub-menu .sub-menu .sub-menu .sub-menu li:hover > a {
   background: #F56421;
   color: #fff !important;
 }
 
 /* sub menu 2 */
 
-.solutek_menu ul .sub-menu .sub-menu {
+.nnd_menu ul .sub-menu .sub-menu {
   left: 100%;
   top: 130%;
   opacity: 0;
@@ -196,7 +196,7 @@ nav.solutek_menu span {
   visibility: hidden;
 }
 
-.solutek_menu ul .sub-menu li:hover > .sub-menu {
+.nnd_menu ul .sub-menu li:hover > .sub-menu {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   visibility: visible;
@@ -205,11 +205,11 @@ nav.solutek_menu span {
 
 /* sub menu 3 */
 
-.solutek_menu ul .sub-menu .sub-menu li {
+.nnd_menu ul .sub-menu .sub-menu li {
   position: relative;
 }
 
-.solutek_menu ul .sub-menu .sub-menu .sub-menu {
+.nnd_menu ul .sub-menu .sub-menu .sub-menu {
   right: 100%;
   left: auto;
   top: 130%;
@@ -218,7 +218,7 @@ nav.solutek_menu span {
   visibility: hidden;
 }
 
-.solutek_menu ul .sub-menu .sub-menu li:hover > .sub-menu {
+.nnd_menu ul .sub-menu .sub-menu li:hover > .sub-menu {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   visibility: visible;
@@ -227,22 +227,22 @@ nav.solutek_menu span {
 
 /* sub menu 4 */
 
-.solutek_menu ul .sub-menu .sub-menu .sub-menu li {
+.nnd_menu ul .sub-menu .sub-menu .sub-menu li {
   position: relative;
 }
 
-.solutek_menu ul .sub-menu .sub-menu .sub-menu li:hover > .sub-menu {
+.nnd_menu ul .sub-menu .sub-menu .sub-menu li:hover > .sub-menu {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   visibility: visible;
   top: 0%;
 }
 
-.solutek_menu li a:hover:before {
+.nnd_menu li a:hover:before {
   width: 100%;
 }
 
-.solutek_nav_manu.sticky .logo_img {
+.nnd_nav_manu.sticky .logo_img {
   display: none;
 }
 
@@ -250,21 +250,21 @@ nav.solutek_menu span {
   display: none;
 }
 
-.solutek_nav_manu.sticky .main_sticky {
+.nnd_nav_manu.sticky .main_sticky {
   display: inherit;
 }
 
-.sticky .solutek_menu li a {
+.sticky .nnd_menu li a {
   color: #fff;
 }
 
-.solutek_nav_manu.sticky a.dtbtn {
+.nnd_nav_manu.sticky a.dtbtn {
   color: #fff;
   background: #f16722;
   border: 2px solid #f16722;
 }
 
-.solutek_nav_manu.sticky a.dtbtn:hover {
+.nnd_nav_manu.sticky a.dtbtn:hover {
   color: #43baff;
 }
 
@@ -311,7 +311,7 @@ nav.solutek_menu span {
 }
 
 /*=====================================
-<-- 02.start solutek hero Area Css -->
+<-- 02.start nnd hero Area Css -->
 =======================================*/
 
 .hero-area {
@@ -372,11 +372,11 @@ nav.solutek_menu span {
   padding: 13px 0 43px;
 }
 
-.hero-area .solutek-hover-btn {
+.hero-area .nnd-hover-btn {
   background-color: #ffff;
 }
 
-.solutek-btn a:hover {
+.nnd-btn a:hover {
   color: #ff3d00;
 }
 
@@ -451,13 +451,13 @@ nav.solutek_menu span {
 }
 
 /*=====================================
-<--  end solutek hero Area Css -->
+<--  end nnd hero Area Css -->
 =======================================*/
 
 
 
 /*=====================================
-<-- 03.start solutek feature Area Css -->
+<-- 03.start nnd feature Area Css -->
 =======================================*/
 
 .feature-area {
@@ -591,13 +591,13 @@ p.feature-text {
 }
 
 /*=====================================
-<--  end solutek feature Area Css -->
+<--  end nnd feature Area Css -->
 =======================================*/
 
 
 
 /*==============================================
-<-- 04.start solutek section-title Area Css -->
+<-- 04.start nnd section-title Area Css -->
 ================================================*/
 
 .section-title.text-center {
@@ -822,13 +822,13 @@ h1.section-main-title2 {
 
 
 /*=====================================
-<--  end solutek section-title Area Css -->
+<--  end nnd section-title Area Css -->
 =======================================*/
 
 
 
 /*=====================================
-<-- 05.start solutek contact Area Css -->
+<-- 05.start nnd contact Area Css -->
 =======================================*/
 
 .contact-area {
@@ -960,12 +960,12 @@ h1.section-main-title2 {
 }
 
 /*=====================================
-<--  end solutek contact Area Css -->
+<--  end nnd contact Area Css -->
 =======================================*/
 
 
 /*=====================================
-<-- 06. start solutek blog Area Css -->
+<-- 06. start nnd blog Area Css -->
 =======================================*/
 
 .blog-area {
@@ -1173,7 +1173,7 @@ h3.blog-title-two a:hover {
 }
 
 /*=====================================
-<--  start solutek blog Area Css -->
+<--  start nnd blog Area Css -->
 =======================================*/
 
 
@@ -1181,7 +1181,7 @@ h3.blog-title-two a:hover {
 
 
 /*=====================================
-<--  start solutek about Area Css -->
+<--  start nnd about Area Css -->
 =======================================*/
 
 .about-area {
@@ -1262,12 +1262,12 @@ h4.about-title {
 
 /* button style */
 
-.solutek-btn {
+.nnd-btn {
   display: inline-block;
   margin-right: 20px;
 }
 
-.solutek-btn a {
+.nnd-btn a {
   display: inline-block;
   background: #F56421;
   text-decoration: none;
@@ -1282,11 +1282,11 @@ h4.about-title {
   transition: 0.5s;
 }
 
-.hero-area.style-three .solutek-btn a:hover {
+.hero-area.style-three .nnd-btn a:hover {
     color: #fff;
 }
 
-.solutek-hover-btn {
+.nnd-hover-btn {
   background-color: #050a1e;
   height: 100%;
   top: 0;
@@ -1325,17 +1325,17 @@ h4.about-title {
   border-radius: 0 30px 30px 0;
 }
 
-.solutek-btn a:hover .solutek-hover-btn {
+.nnd-btn a:hover .nnd-hover-btn {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
 
 /* btn-2 hover style */
-.solutek-button {
+.nnd-button {
   display: inline-block;
 }
-.solutek-button a {
+.nnd-button a {
   display: inline-block;
   background: #F56421;
   text-decoration: none;
@@ -1366,13 +1366,13 @@ h4.about-title {
 }
 
 /*=====================================
-<--  end solutek about Area Css -->
+<--  end nnd about Area Css -->
 =======================================*/
 
 
 
 /*=====================================
-<--  start solutek service Area Css -->
+<--  start nnd service Area Css -->
 =======================================*/
 
 .sservice-area {
@@ -1509,11 +1509,11 @@ p.service-text {
 }
 
 /*=====================================
-<--  end solutek service Area Css -->
+<--  end nnd service Area Css -->
 =======================================*/
 
 /*=====================================
-<--  start solutek project Area Css -->
+<--  start nnd project Area Css -->
 =======================================*/
 
 .project-area {
@@ -1658,11 +1658,11 @@ h3.project-title a:hover {
 }
 
 /*=====================================
-<--  end solutek project Area Css -->
+<--  end nnd project Area Css -->
 =======================================*/
 
 /*=====================================
-<--  start solutek brand Area Css -->
+<--  start nnd brand Area Css -->
 =======================================*/
 
 .brand-area {
@@ -1739,11 +1739,11 @@ h3.project-title a:hover {
 
 
 /*=====================================
-<--  end solutek brand Area Css -->
+<--  end nnd brand Area Css -->
 =======================================*/
 
 /*=====================================
-<--  start solutek pricing Area Css -->
+<--  start nnd pricing Area Css -->
 =======================================*/
 
 .pricing-area {
@@ -1849,17 +1849,17 @@ ul.pricing-list li i {
   margin-right: 14px;
 }
 
-.pricing-area .solutek-hover-btn {
+.pricing-area .nnd-hover-btn {
   background-color: #ff3d00;
 }
 
-.pricing-area .solutek-btn a {
+.pricing-area .nnd-btn a {
   background: #f5ebe8;
   padding: 16px 55px;
   color: #ff3d00;
 }
 
-.pricing-area .solutek-btn a:hover {
+.pricing-area .nnd-btn a:hover {
   color: #ffff;
 }
 
@@ -1881,11 +1881,11 @@ ul.pricing-list li i {
 }
 
 /*=====================================
-<--  end solutek pricing Area Css -->
+<--  end nnd pricing Area Css -->
 =======================================*/
 
 /*=====================================
-<--  start solutek faq-area Css -->
+<--  start nnd faq-area Css -->
 =======================================*/
 
 .faq-area {
@@ -2076,12 +2076,12 @@ a.active {
 }
 
 /*=====================================
-<--  end solutek faq-area Css -->
+<--  end nnd faq-area Css -->
 =======================================*/
 
 
 /*=====================================
-<--  start solutek testimonial-area Css -->
+<--  start nnd testimonial-area Css -->
 =======================================*/
 
 .testimonial-area {
@@ -2183,14 +2183,14 @@ ul.testi-rating li {
 }
 
 /*=====================================
-<--  end solutek testimonial-area Css -->
+<--  end nnd testimonial-area Css -->
 =======================================*/
 
 
 
 /*
 <!-- ==========================================-->
-<!-- Start solutek testimonial Area css style-two-->
+<!-- Start nnd testimonial Area css style-two-->
 <!-- =========================================-->*/
 .testimonial-area.style-two {
   background: #fff;
@@ -2357,7 +2357,7 @@ ul.testi-rating li {
 }
 
 /*---=====================================================
- <!-- Start solutek testimonial Area  style-three-->
+ <!-- Start nnd testimonial Area  style-three-->
 =========================================================---*/
 .testimonial-area.style-three {
   background: #fff;
@@ -2415,7 +2415,7 @@ ul.testi-rating li {
 
 
 /*---=====================================================
-   <!-- Start solutek testimonial Area style-four-->
+   <!-- Start nnd testimonial Area style-four-->
 =========================================================---*/
 
 .testimonial-area.style-four {
@@ -2582,7 +2582,7 @@ ul.testi-rating li {
 
 
 /*=====================================
-<--  start solutek address-area Css -->
+<--  start nnd address-area Css -->
 =======================================*/
 
 .address-area {
@@ -2635,7 +2635,7 @@ ul.testi-rating li {
   float: right;
 }
 
-.address-area .solutek-btn a {
+.address-area .nnd-btn a {
   display: inline-block;
   background: #050a1e;
   text-decoration: none;
@@ -2652,20 +2652,20 @@ ul.testi-rating li {
   transition: 0.5s;
 }
 
-.address-area .solutek-hover-btn {
+.address-area .nnd-hover-btn {
   background-color: #ffff;
 }
 
-.address-area .solutek-btn a:hover {
+.address-area .nnd-btn a:hover {
   color: #ff3d00;
 }
 
 /*=====================================
-<--  end solutek address-area Css -->
+<--  end nnd address-area Css -->
 =======================================*/
 
 /*=====================================
-<--  start solutek footer-area Css -->
+<--  start nnd footer-area Css -->
 =======================================*/
 
 .footer-area {
@@ -2821,7 +2821,7 @@ p.newsletter-text {
   width: 100%;
 }
 
-/*----solutek copyright css-----*/
+/*----nnd copyright css-----*/
 
 .row.copyright {
   border-top: 1px solid #1c2030;
@@ -2864,13 +2864,13 @@ p.newsletter-text {
 }
 
 /*=====================================
-<--  end solutek footer-area Css -->
+<--  end nnd footer-area Css -->
 =======================================*/
 
 
 
 /*=====================================
-<-- start solutek Home two Css -->
+<-- start nnd Home two Css -->
 =======================================*/
 
 /*nav button*/
@@ -3205,32 +3205,32 @@ ul.list-style-one li a:hover {
 }
 
 /* home style-two manu-area */
-.solutek_nav_manu.style-two {
+.nnd_nav_manu.style-two {
   padding: 15px 39px 12px;
 }
 
-.solutek_nav_manu.style-two .solutek_menu > ul > li > a {
+.nnd_nav_manu.style-two .nnd_menu > ul > li > a {
   color: #232323 !important;
 }
 
-.solutek_nav_manu.style-two.sticky .solutek_menu > ul > li > a {
+.nnd_nav_manu.style-two.sticky .nnd_menu > ul > li > a {
   color: #fff !important;
 }
 
-.solutek_nav_manu.style-two .solutek_menu > ul > li > a:hover {
+.nnd_nav_manu.style-two .nnd_menu > ul > li > a:hover {
   color: #ff3c00 !important;
 }
 
-.solutek_nav_manu.style-two .header-menu-btn {
+.nnd_nav_manu.style-two .header-menu-btn {
   text-align: right;
 }
 
-.solutek_nav_manu.style-two .sidebar-button {
+.nnd_nav_manu.style-two .sidebar-button {
   display: inline-block;
   margin-left: 30px;
 }
 
-.solutek_nav_manu.style-two .sidebar-button a {
+.nnd_nav_manu.style-two .sidebar-button a {
   color: #F56421;
   display: inline-block;
   background-color: rgb(255 59 0/7%);
@@ -3239,7 +3239,7 @@ ul.list-style-one li a:hover {
   padding: 12px 15px;
 }
 
-.solutek_nav_manu.style-two .solutek-btn a:hover {
+.nnd_nav_manu.style-two .nnd-btn a:hover {
   color: #fff;
 }
 
@@ -3261,12 +3261,12 @@ ul.list-style-one li a:hover {
   display: inline-block;
 }
 
-.hero-area.style-two .solutek-btn {
+.hero-area.style-two .nnd-btn {
   display: inline-block;
   margin-right: 56px;
 }
 
-.hero-area.style-two .solutek-btn a:hover {
+.hero-area.style-two .nnd-btn a:hover {
   color: #fff;
 }
 
@@ -3321,7 +3321,7 @@ ul.list-style-one li a:hover {
 
 /*
 <!-- =====================================-->
-<!-- Start solutek marquee section css -->
+<!-- Start nnd marquee section css -->
 <!-- =====================================-->*/
 .marquee-section {
   position: relative;
@@ -3404,7 +3404,7 @@ ul.list-style-one li a:hover {
 
 /*
 <!-- =====================================-->
-<!-- Start solutek service Area style two  -->
+<!-- Start nnd service Area style two  -->
 <!-- =====================================-->*/
 
 
@@ -3538,7 +3538,7 @@ ul.list-style-one li a:hover {
 }
 /*
 <!-- =====================================-->
-<!-- Start solutek about Area style-two  -->
+<!-- Start nnd about Area style-two  -->
 <!-- =====================================-->*/
 .about-area.style-two {
   border-radius: 40px;
@@ -3644,7 +3644,7 @@ ul.list-style-one li a:hover {
   transition: 0.5s;
 }
 
-.about-area.style-two .solutek-btn {
+.about-area.style-two .nnd-btn {
   display: inline-block;
   margin-right: 24px;
 }
@@ -3667,13 +3667,13 @@ ul.list-style-one li a:hover {
   margin: 0;
 }
 
-.about-area.style-two .solutek-btn a:hover {
+.about-area.style-two .nnd-btn a:hover {
   color: #fff;
 }
 
 /*
 <!-- =====================================-->
-<!--start solutek team Area style-two-->
+<!--start nnd team Area style-two-->
 <!-- =====================================-->*/
 .team-area.style-two {
   padding: 110px 0 90px;
@@ -3817,7 +3817,7 @@ ul.list-style-one li a:hover {
 
 /*
 <!-- =====================================-->
-<!-- start solutek project Area style-two-->
+<!-- start nnd project Area style-two-->
 <!-- =====================================-->*/
 .project-area.styl-two {
   padding: 120px 0 65px;
@@ -4066,7 +4066,7 @@ ul.list-style-one li a:hover {
 
 /*
 <!-- ==========================================-->
-<!-- start solutek project-area styl-three -->
+<!-- start nnd project-area styl-three -->
 <!-- =========================================-->*/
 .project-area.style-three {
   background: url(assets/images/home-two/project-bg3.png);
@@ -4192,7 +4192,7 @@ ul.list-style-one li a:hover {
 
 /*
 <!-- ==========================================-->
-<!-- start solutek blog Area style-two-->
+<!-- start nnd blog Area style-two-->
 <!-- =========================================-->*/
 .blog-area.style-two {
   background: #fff;
@@ -4368,11 +4368,11 @@ ul.list-style-one li a:hover {
   right: 0;
 }
 
-/* <!--solutek home page three Css--> */
+/* <!--nnd home page three Css--> */
 
 
 /*---=====================================================
-   <!--solutek top header area Css-->
+   <!--nnd top header area Css-->
 =========================================================---*/
 .top-header-area {
   background-color: #050a1e;
@@ -4429,36 +4429,36 @@ ul.list-style-one li a:hover {
   color:#fff;
 }
 
-/*solutek home page 03 css 
+/*nnd home page 03 css 
   -----------------------*/
 
 /* home style-three manu-area */
-.solutek_nav_manu.style-three {
+.nnd_nav_manu.style-three {
   padding: 15px 90px 12px 140px;
 }
 
-.solutek_nav_manu.style-three .solutek_menu > ul > li > a {
+.nnd_nav_manu.style-three .nnd_menu > ul > li > a {
   color: #232323 !important;
 }
 
-.solutek_nav_manu.style-three.sticky .solutek_menu > ul > li > a {
+.nnd_nav_manu.style-three.sticky .nnd_menu > ul > li > a {
   color: #fff !important;
 }
 
-.solutek_nav_manu.style-three .solutek_menu > ul > li > a:hover {
+.nnd_nav_manu.style-three .nnd_menu > ul > li > a:hover {
   color: #ff3c00 !important;
 }
 
-.solutek_nav_manu.style-three .header-menu-btn {
+.nnd_nav_manu.style-three .header-menu-btn {
   text-align: right;
 }
 
-.solutek_nav_manu.style-three .sidebar-button {
+.nnd_nav_manu.style-three .sidebar-button {
   display: inline-block;
   margin-left: 30px;
 }
 
-.solutek_nav_manu.style-three .sidebar-button a {
+.nnd_nav_manu.style-three .sidebar-button a {
   color: #F56421;
   display: inline-block;
   background-color: rgb(255 59 0/7%);
@@ -4467,11 +4467,11 @@ ul.list-style-one li a:hover {
   padding: 12px 15px;
 }
 
-.solutek_nav_manu.style-three .solutek-btn a:hover {
+.nnd_nav_manu.style-three .nnd-btn a:hover {
   color: #fff;
 }
 
-.solutek_nav_manu.style-three .solutek-btn {
+.nnd_nav_manu.style-three .nnd-btn {
   display: inline-block;
   margin-left: 18px;
 }
@@ -4479,7 +4479,7 @@ ul.list-style-one li a:hover {
 /* hero area home 03 */
 
 /*---=====================================================
-   <!--solutek hero Area style-three-->
+   <!--nnd hero Area style-three-->
 =========================================================---*/
 .hero-area.style-three {
   height: 800px;
@@ -4555,7 +4555,7 @@ ul.list-style-one li a:hover {
   padding: 18px 0 40px;
 }
 
-.hero-area.style-three .solutek-btn {
+.hero-area.style-three .nnd-btn {
   display: inline-block;
   margin-right: 16px;
 }
@@ -4668,7 +4668,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-  <!-- Start solutek our service section  -->
+  <!-- Start nnd our service section  -->
 =========================================================---*/
 .our-service-section {
   background: url(assets/images/home-3/service-bg.png);
@@ -4742,7 +4742,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-  <!-- start solutek about section -->
+  <!-- start nnd about section -->
 =========================================================---*/
 .about-section {
   background: url(assets/images/home-3/about3-bg.png);
@@ -4784,7 +4784,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-   <!-- start solutek counter area -->
+   <!-- start nnd counter area -->
 =========================================================---*/
 .counter-area {
   position: relative;
@@ -4846,7 +4846,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-   <!-- start solutek case studies area -->
+   <!-- start nnd case studies area -->
 =========================================================---*/
 .case-studies-area {
   background-color: #050a1e;
@@ -5022,7 +5022,7 @@ ul.list-style-one li a:hover {
 
 
 /*---=====================================================
-   <!--start solutek working proces area -->
+   <!--start nnd working proces area -->
 =========================================================---*/
 .working-proces-area {
   padding: 110px 0 90px;
@@ -5137,7 +5137,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-   <!-- start solutek-faq Area style-two-->
+   <!-- start nnd-faq Area style-two-->
 =========================================================---*/
 .faq-area.style-two {
   background: url(assets/images/home-3/faq-bg.png);
@@ -5178,7 +5178,7 @@ ul.list-style-one li a:hover {
 }
 
 /*---=====================================================
-   <!--solutek Breadcumb Area Css-->
+   <!--nnd Breadcumb Area Css-->
 =========================================================---*/
 .breadcumb-area {
   background: url(assets/images/inner/breadcumb-bg1copy1.png);
@@ -5242,7 +5242,7 @@ li.list-arrow {
 
 
 /* <!--==================================================-- */
-/* <!--start solutek about us Area -- */
+/* <!--start nnd about us Area -- */
 /* <!--==================================================--> */
 .about-us-area {
   background: #fff;
@@ -5393,7 +5393,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-  <!-- start solutek project Area style-two -->
+  <!-- start nnd project Area style-two -->
 =========================================================---*/
 .project-area.style-two {
   padding: 130px 0 88px;
@@ -5410,7 +5410,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-<!-- start solutek service Area style-two-->
+<!-- start nnd service Area style-two-->
 =========================================================---*/
 .sservice-area.style-two {
   padding: 120px 0 58px;
@@ -5524,7 +5524,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-<!--start solutek team Area style-inner-->
+<!--start nnd team Area style-inner-->
 =========================================================---*/
 .team-area.style-inner {
   padding: 110px 0 90px;
@@ -5668,7 +5668,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-<!-- Start solutek Team Details Area-->
+<!-- Start nnd Team Details Area-->
 =========================================================---*/
 .team-details-area {
   padding: 122px 0 88px;
@@ -5832,7 +5832,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-   <!--solutek skill bar-->
+   <!--nnd skill bar-->
 =========================================================---*/
 
 .skill {
@@ -5894,7 +5894,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
-   <!--solutek skill bar-->
+   <!--nnd skill bar-->
 =========================================================---*/
 
 .skill {
@@ -5956,7 +5956,7 @@ li.list-arrow {
 }
 
 /*---=====================================================
- <!-- Start solutek services details area css-->
+ <!-- Start nnd services details area css-->
 =========================================================---*/
 .services-details-area {
   padding: 122px 0 121px;
@@ -6375,7 +6375,7 @@ button.icons {
   left: 0;
 }
 /*---=====================================================
-	<!-- Start solutek case study area css -->
+	<!-- Start nnd case study area css -->
 =========================================================---*/
 .case-study-area {
   padding: 100px 0 90px;
@@ -6523,7 +6523,7 @@ li.current_menu_item {
 }
 
 /*---=====================================================
-<!--start solutek project details area css -->
+<!--start nnd project details area css -->
 =========================================================---*/
 .project-details-area {
   padding: 123px 0 93px;
@@ -6616,7 +6616,7 @@ a.project-details-text {
 }
 
 /*---=====================================================
-<!-- Start solutek blog Area css style-grid-->
+<!-- Start nnd blog Area css style-grid-->
 =========================================================---*/
 .blog-area.style-grid .single-blog-box {
   background: #fff;
@@ -6730,7 +6730,7 @@ a.project-details-text {
 }
 
 /*---=====================================================
-<!-- Start solutek blog details css-->
+<!-- Start nnd blog details css-->
 =========================================================---*/
 .blog-details-area {
   padding: 119px 0 119px;
@@ -7160,7 +7160,7 @@ p.blog-details-desc.three {
     color: #fff;
 }
 /*---=====================================================
-<!-- Start solutek google map area -->
+<!-- Start nnd google map area -->
 =========================================================---*/
 .google-map iframe {
   width: 100%;
@@ -7402,7 +7402,7 @@ p.blog-details-desc.three {
 
 /*
 <!-- ============================================================== -->
-<!-- solutek Scrollup Section -->
+<!-- nnd Scrollup Section -->
 <!-- ============================================================== -->*/
 
 .scroll-area {
@@ -7583,7 +7583,7 @@ p.blog-details-desc.three {
 }
 
 /*===========================
-<-- solutek Loader Css -->
+<-- nnd Loader Css -->
 =============================*/
 
 .loader-wrapper {
