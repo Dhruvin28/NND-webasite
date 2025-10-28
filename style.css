@@ -1790,7 +1790,7 @@ h3.project-title a:hover {
   transition: 0.5s;
 }
 
-h1.priching-doller {
+h1.pricing-doller {
   font-size: 45px;
   color: #ff3c00;
   font-weight: 600;
@@ -1800,7 +1800,7 @@ h1.priching-doller {
   transition: 0.5s;
 }
 
-h3.priching-title {
+h3.pricing-title {
   font-size: 20px;
   line-height: 26px;
   color: #041424;
@@ -1868,11 +1868,11 @@ ul.pricing-list li i {
   left: 0;
 }
 
-.pricing-single-box:hover h1.priching-doller {
+.pricing-single-box:hover h1.pricing-doller {
   color: #fff;
 }
 
-.pricing-single-box:hover h3.priching-title {
+.pricing-single-box:hover h3.pricing-title {
   color: #fff;
 }
 
