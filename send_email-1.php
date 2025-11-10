@@ -16,8 +16,43 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = strip_tags(trim($_POST["subject"]));
     $phone   = strip_tags(trim($_POST["phone"]));
     $message = trim($_POST["message"]);
+    $recaptchaResponse = $_POST['g-recaptcha-response'] ?? '';
 
     header('Content-Type: application/json');
+
+    // Verify reCAPTCHA
+    if (empty($recaptchaResponse)) {
+        http_response_code(400);
+        echo json_encode(["status" => "error", "message" => "Please complete the reCAPTCHA verification."]);
+        exit;
+    }
+
+    // Verify reCAPTCHA with Google
+    $recaptchaSecret = '6LcFRwgsAAAAAAa-ycpzH6n3TJl6fovtbtYzddvJ';
+    $recaptchaUrl = 'https://www.google.com/recaptcha/api/siteverify';
+    $recaptchaData = [
+        'secret' => $recaptchaSecret,
+        'response' => $recaptchaResponse,
+        'remoteip' => $_SERVER['REMOTE_ADDR']
+    ];
+
+    $options = [
+        'http' => [
+            'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+            'method'  => 'POST',
+            'content' => http_build_query($recaptchaData)
+        ]
+    ];
+
+    $context  = stream_context_create($options);
+    $verify = file_get_contents($recaptchaUrl, false, $context);
+    $captchaSuccess = json_decode($verify);
+
+    if (!$captchaSuccess->success) {
+        http_response_code(400);
+        echo json_encode(["status" => "error", "message" => "reCAPTCHA verification failed. Please try again."]);
+        exit;
+    }
 
     if ( empty($name) || empty($subject) || empty($phone) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         http_response_code(400);
