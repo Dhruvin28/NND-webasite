@@ -20,14 +20,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     header('Content-Type: application/json');
 
-    // Verify reCAPTCHA
+    // Verify reCAPTCHA v3
     if (empty($recaptchaResponse)) {
         http_response_code(400);
-        echo json_encode(["status" => "error", "message" => "Please complete the reCAPTCHA verification."]);
+        echo json_encode(["status" => "error", "message" => "reCAPTCHA verification required."]);
         exit;
     }
 
-    // Verify reCAPTCHA with Google
+    // Verify reCAPTCHA v3 with Google
     $recaptchaSecret = '6LcXUQgsAAAAAFmqHTmbrk23Blu0lUqCwRcEIci-';
     $recaptchaUrl = 'https://www.google.com/recaptcha/api/siteverify';
     $recaptchaData = [
@@ -48,7 +48,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $verify = file_get_contents($recaptchaUrl, false, $context);
     $captchaSuccess = json_decode($verify);
 
-    if (!$captchaSuccess->success) {
+    // Check if reCAPTCHA verification was successful and score is above threshold
+    if (!$captchaSuccess->success || $captchaSuccess->score < 0.5) {
         http_response_code(400);
         echo json_encode(["status" => "error", "message" => "reCAPTCHA verification failed. Please try again."]);
         exit;
